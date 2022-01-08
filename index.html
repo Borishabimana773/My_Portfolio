@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>My Portfolio</title>
+        <link rel="stylesheet" href="./assets/CSS/style.css"/>
     </head>
     <body>
         <!-- navigation -->
@@ -14,23 +15,72 @@
                 <!-- unorder list element -->
                 <ul>
                     <li>
-                        <a href="#About Me">About Me</a>
+                        <a href="#About-Me">About Me</a>
                     </li>
                     <li>
-                        <a href="#Work and Experience">Work and Experience</a>
+                        <a href="#Work-and-Experience">Work and Experience</a>
                     </li>
                     <li>
-                        <a href="#Contact Information">Contact Information</a>
+                        <a href="#Contact-Information">Contact Information</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <!-- website hero -->
-        <section class="hero">
-            <div class="hero-form">
+  
+            <section id="About-Me" class="Intro">
+                <h2 class="section-title primary-border">
+                    About Me
+                </h2>
+                <article class="introduction">
+                    <img src="./assets/images/boris.jpg" alt="Boris Habimana sitting with the sunset view behind him"/>
+                    <div class="About-bio text-left">
+                        <h3>Boris Habimana</h3>
+                        <h4>Enjoying the sunset somewhere near the beach in Tampa on the gulf of Mexico</h4>
+                        <p>
+                            My name is Boris Habimana, I am a seasoned professional with experience in customer service, sales
+                            project management in telecom and financial services. In my time in financial services, I worked in 
+                            various roles including working with IT department to develop new products and services. This provided me
+                            with the knowledge of both frontend and backend operations and management.
+                            I am currently open to opprtunities to join a team that is working to make the world a better place.
+                            With my newly acquired fullstack webdeveloper skills, I would love to combine it with my customer and non-customer facing
+                            experience to improve and deliver cutting-edge solutions that will solve ever increasing challenges such as caused by Covid-19.
+                        </p>
+                        <p>
+                            I am married to my wonderful wife and together,we are raising our now five year old son who means the world to us. Having been born 
+                            in East-Africa, I was fortunate to be exposed to many cultures which instilled in me values such as: care for others, integrity, honesty,
+                            courage and hope. I have travelled around Africa and many parts of the world, I have worked with teams and have been part of projects cross-continental.
+
+                        </p>
+                    </div>
+                </article>
+            </section>
+                  <!-- Contact me section -->
+        <section class="Contact">
+            <div class="Contact-form">
                 <h3> Have a question? Contact Me today!</h3>
                 <p>Fill out this form and I will respond within 48 hrs!</p>
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+    
+                    <label for="email">Enter Email Adress</label>
+                    <input type="email" placeholder="Email Adress" name="email" id="email" class="form-input" />
+    
+                    <lable for="phone number">Enter Phone Number</lable>
+                    <input type="tel" placeholder="Phone Number" name="Phone" id="phone" class="form-input" />
+                    
+                    <button type="submit">
+                        Send email!
+                    </button>
+                </form>
             </div>
-        </section>
+            </section>
+        <!-- footer -->
+        <footer> 
+            <h2> <span style="font-weight: 100;">❤️</span> Made with love by Boris Habimana.</h2>
+            <div>
+                &copy; 2022 Boris Habimana.
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 60px;
+}
+body {
+    color:rgb(1, 24, 16);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.About, .Contact {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Contact-form {
+  background-color: #90b4f7;
+  padding: 20px;
+  width: 500px;
+  color: rgb(1, 24, 16);
+  border: 3px solid #032c42;
+  position: relative;
+  bottom: 120px;
+  right: 140px;
+}
