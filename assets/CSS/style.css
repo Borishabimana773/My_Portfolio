@@ -82,9 +82,9 @@ header h1 {
   }
 
   
-.content {
-    width: 75%;
-}
+/* .content {
+    width: 100%;
+} */
 .section-container {
     display: flex;
     align-content: center;
@@ -97,7 +97,7 @@ header h1 {
     max-width: 33%;
 }
 .section-content {
-    width: 66%;
+    width: 100%;
 }
 .project-container {
     display: flex;   
@@ -110,8 +110,8 @@ header h1 {
 .project {
     background-color: #e0eead;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border: 2px solid black;
     padding: 10px;
     margin: 0 5px;
